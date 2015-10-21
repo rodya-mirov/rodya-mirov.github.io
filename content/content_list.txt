@@ -1,2 +1,4 @@
 home		Home
 research	Research
+talks		Talks
+cv			Curriculum Vitae
