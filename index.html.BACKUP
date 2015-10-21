@@ -1,0 +1,97 @@
+
+<html>
+
+	<head>
+		<title>Examples in Model Theory</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+                
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    	<!--[if lt IE 9]>
+        	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+		
+		<script src="scripts/mathjax.js"></script>
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js" type="text/javascript"></script>
+		<script src="scripts/bootstrap-tab.js"></script>
+		
+		<style>
+			.offsetSpan { margin-left: 3em; }
+		</style>
+		
+		<script type="text/javascript">
+			function showdiv(id){
+				if (document.getElementById(id).style.display == 'none') {
+					document.getElementById(id).style.display = 'block';
+				}
+				else {
+					document.getElementById(id).style.display = 'none';
+				}
+			}
+		</script>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="page-header">
+				<h1>Examples in Model Theory</h1>
+			</div>
+
+			<div class="row">
+				<div class="tabbable tabs-left">
+					<ul class="nav nav-tabs">
+						<li class="active">	<a href="#index"	data-toggle="tab">Home</a></li>
+						<li>				<a href="#reialpha"	data-toggle="tab">$\textrm{REI}_\alpha$</a></li>
+						<li>				<a href="#refomega"	data-toggle="tab">$\textrm{REF}_\omega$</a></li>
+						<li>				<a href="#leialpha"	data-toggle="tab">$\textrm{LEI}_\alpha$</a></li>
+						<li>				<a href="#cefkappa"	data-toggle="tab">$\textrm{CEF}_\kappa$</a></li>
+					</ul>
+					
+					<div class="tab-content">
+						<div class="tab-pane active fade in" id="index">
+							<p>
+							This is the temporary home of a new pet project, "Examples in Model Theory."
+							</p>
+
+							<p>
+							There's not a lot to see just yet; a handful of examples, most which have come up almost entirely as examples and counterexamples to ideas from a study group.  The content grows as we need it.  Please send any reports of errors (anything from major math mistakes and wrong results to typos and formatting issues) to the curator, <a href="mailto:richard.rast+eimt@gmail.com">Richard Rast</a>.
+							</p>
+							
+							<p>
+							Here are some possible "counterexamples" which may be of interest:
+							<ul>
+							<li>$\omega$-stable theories of arbitrary (countable) Morley Rank: $\textrm{LEI}_\alpha$ (for countable $\alpha$)</li>
+							<li>Totally transcendental theories of arbitrary infinite Morley rank: $\textrm{LEI}_\alpha$</li>
+							<li>Superstable theories of arbitrary infinite U-rank: $\textrm{LEI}_\alpha$ (here U-rank agrees with Morley rank)</li>
+							<li>A stable, non-superstable theory which is dp-minimal: $\textrm{REI}_\alpha$ (for infinite $\alpha$)</li>
+							<li>A superstable, countable, non-$\omega$-stable theory with U-rank 1: $\textrm{REF}_\omega$</li>
+							<li>A superstable, non-totally-transcendental theory with arbitrary infinite U-rank: $\textrm{LEI}_\alpha \times \textrm{REF}_\omega$ (has U-rank $\alpha+1$)</li>
+							<li>Infinite dp-rank questions:
+								<ul>
+								<li>A stable, non-superstable theory of infinite dp-rank: ???</li>
+								<li>A superstable, non-$\omega$-stable theory of infinite dp-rank: ???</li>
+								<li>An $\omega$-stable theory of infinite dp-rank: ???</li>
+								</ul>
+							</li>
+							<li>Finite, non-minimal dp-rank questions:
+								<ul>
+								<li>A stable, non-superstable theory of arbitrary finite dp-rank: ???</li>
+								<li>A superstable, non-$\omega$-stable theory of arbitrary finite dp-rank: ???</li>
+								<li>An $\omega$-stable theory of arbitrary finite dp-rank: ???</li>
+								</ul>
+							</li>
+							</ul>
+							</p>
+						</div>
+						
+						<script src="content/reialpha.js"></script>
+						<script src="content/refomega.js"></script>
+						<script src="content/leialpha.js"></script>
+						<script src="content/cefkappa.js"></script>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

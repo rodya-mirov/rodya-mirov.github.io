@@ -1,0 +1,1 @@
+document.write("<li class=\"active\"><a href=\"#home\" data-toggle=\"tab\">Home</a></li>");document.write("<li><a href=\"#research\" data-toggle=\"tab\">Research</a></li>");

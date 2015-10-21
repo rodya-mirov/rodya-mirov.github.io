@@ -1,0 +1,1 @@
+document.write("<script src=\"content/home.js\"></script>");document.write("<script src=\"content/research.js\"></script>");
