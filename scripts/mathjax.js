@@ -1,0 +1,10 @@
+document.write("<script type=\"text/x-mathjax-config\">");
+document.write("   MathJax.Hub.Config({");
+document.write("      tex2jax: {inlineMath: [['$','$'], ['\\\\(','\\\\)']]}");
+document.write("   });");
+document.write("</script>");
+document.write("");
+document.write("<script");
+document.write("   type=\"text/javascript\"");
+document.write("   src=\"http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML\">");
+document.write("</script>");
