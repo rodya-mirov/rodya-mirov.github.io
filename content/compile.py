@@ -2,7 +2,7 @@ import sys
 import re
 
 def sanitize(text):
-	text = text.strip() #remove excess whitenoise
+	text = text.strip() #remove excess white noise
 	text = re.sub(r'([\\\"])', r'\\\1', text) #escape all the quotes and escape characters, so they don't blow up our formatting
 	return text
 
