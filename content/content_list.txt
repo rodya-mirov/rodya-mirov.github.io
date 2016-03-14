@@ -1,4 +1,5 @@
 home		Home
-research	Research
-talks		Talks
+games		Open Source
+research	Math Research
+talks		Research Talks
 cv			Curriculum Vitae
