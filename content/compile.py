@@ -14,6 +14,8 @@ titles = []
 
 linenumber = 0
 
+#this gets all the files we need to compile and figures out their names
+#then writes out the tab_content.js file, which is just a set of links to the various subpages
 namefile = open("content_list.txt", "r")
 for line in namefile:
 	tokens = [ sanitize(x) for x in line.split() ]
@@ -44,6 +46,9 @@ tabcontentfile.close()
 
 linenumber = 0
 
+#this takes a raw html file and "compiles" it to a compatible .js file
+#which is essentially the bootstrap boilerplate on top, and the rest of the file
+#as a big document.write( [original content, escaped properly and renamed to avoid clashes ] )
 for index in range(0, len(names)):
 	filename = names[index] #for comment purposes, assume filename is "file" (sans quotes)
 
@@ -51,7 +56,7 @@ for index in range(0, len(names)):
 	input = open(filename + ".html", 'r') #we compile file.html ...
 	output = open(filename + ".js", 'w')  #...into file.js
 	
-	if linenumber == 0: #first line is "active," while others are not
+	if linenumber == 0: #first line in the tab list is "active," while others are not
 		text = "<div class=\\\"tab-pane active fade in\\\" id=\\\"" + filename + "\\\">";
 	else:
 		text = "<div class=\\\"tab-pane fade\\\" id=\\\"" + filename + "\\\">";
