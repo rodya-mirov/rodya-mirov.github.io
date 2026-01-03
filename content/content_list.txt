@@ -1,5 +1,3 @@
 home		Home
 games		Open Source
-research	Math Research
-talks		Research Talks
 math        Math
