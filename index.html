@@ -75,5 +75,71 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <!-- Tab URL synchronization -->
+    <script>
+    (function() {
+        // Function to get tab ID from hash (remove # if present)
+        function getTabIdFromHash() {
+            var hash = window.location.hash;
+            return hash ? hash.substring(1) : null;
+        }
+        
+        // Function to activate a tab by ID
+        function activateTab(tabId) {
+            if (!tabId) return false;
+            var $tab = $('a[href="#' + tabId + '"]');
+            var $pane = $('#' + tabId);
+            // Only activate if both tab link and pane exist
+            if ($tab.length && $pane.length) {
+                $tab.tab('show');
+                return true;
+            }
+            return false;
+        }
+        
+        // Try to activate tab, retry if not ready yet
+        function tryActivateTab(tabId, maxRetries) {
+            maxRetries = maxRetries || 10;
+            if (activateTab(tabId)) {
+                return;
+            }
+            if (maxRetries > 0) {
+                setTimeout(function() {
+                    tryActivateTab(tabId, maxRetries - 1);
+                }, 50);
+            }
+        }
+        
+        // On page load, check hash and activate corresponding tab
+        $(document).ready(function() {
+            var tabId = getTabIdFromHash();
+            if (tabId) {
+                tryActivateTab(tabId);
+            }
+        });
+        
+        // When a tab is shown, update the URL hash
+        $(document).on('shown.bs.tab', 'a[data-toggle="tab"]', function (e) {
+            var tabId = $(e.target).attr('href').substring(1);
+            if (window.location.hash !== '#' + tabId) {
+                // Use replaceState to avoid adding to history on initial load
+                // but allow back/forward navigation
+                if (document.readyState === 'complete') {
+                    window.history.pushState(null, null, '#' + tabId);
+                } else {
+                    window.history.replaceState(null, null, '#' + tabId);
+                }
+            }
+        });
+        
+        // Handle browser back/forward buttons
+        $(window).on('hashchange', function() {
+            var tabId = getTabIdFromHash();
+            if (tabId) {
+                activateTab(tabId);
+            }
+        });
+    })();
+    </script>
   </body>
 </html>
