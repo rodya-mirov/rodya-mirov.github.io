@@ -1,3 +1,0 @@
-home		Home
-games		Open Source
-math        Math
