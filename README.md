@@ -130,9 +130,3 @@ This site uses the [Paper](https://github.com/nanxiaobei/hugo-paper) theme. To u
 cd themes/paper
 git pull
 ```
-
-## Notes
-
-- The old Python build system (`content/compile.py`) is no longer used
-- Old HTML files in `content/` are kept for reference but not used
-- Static assets have been moved to the `static/` directory

@@ -3,6 +3,8 @@ title: "Math"
 math: true
 ---
 
+## Richard Rast, Model Theorist
+
 I was a mathematician in Model Theory (which is a kind of Logic, which is a kind of Math, at least the way I do it).  I got my PhD at the University of Maryland, under the advisement of Prof. Chris Laskowski.
 
 I spent seven years doing it, in that time I taught a dozen classes, wrote three papers, a thesis, and a textbook, and gave a fair number of talks. Although life took a different course after I graduated, I still look back on those days with a lot of fondness. Along the way I made some good friends, got married, and realized I was ready to leave. Still, I look back on those days with a lot of fondness.

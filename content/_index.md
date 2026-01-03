@@ -2,7 +2,7 @@
 title: "Home"
 ---
 
-<img src="/images/BruceChair.jpg" alt="Not a picture of Richard Rast" style="float:right; width:254px; height:254px; margin:0px 10px" align="right" title="Yes when is math over I'm hungry and bored" />
+<img src="/images/BruceChair.jpg" alt="Not a picture of Richard Rast" style="float:right; width:254px; height:254px; margin:0px 10px" align="right" title="I am unmoved" />
 
 ## Richard Rast
 

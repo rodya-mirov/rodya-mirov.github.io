@@ -29,9 +29,9 @@ title = 'Richard Rast'
     url = "/"
     weight = 10
   [[menu.main]]
-    identifier = "games"
-    name = "Open Source"
-    url = "/games/"
+    identifier = "hobby_programming"
+    name = "Hobby Programming"
+    url = "/hobby_programming/"
     weight = 20
   [[menu.main]]
     identifier = "math"
