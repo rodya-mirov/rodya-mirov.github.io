@@ -18,6 +18,10 @@ title = 'Richard Rast'
     [markup.goldmark.renderer]
       unsafe = true
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [menu]
   [[menu.main]]
     identifier = "home"
