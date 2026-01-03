@@ -1,0 +1,36 @@
+baseURL = 'https://rodya-mirov.github.io/'
+languageCode = 'en-us'
+title = 'Richard Rast'
+
+[module]
+  [[module.imports]]
+    path = 'github.com/nanxiaobei/hugo-paper'
+
+[params]
+  name = 'Richard Rast'
+  bio = 'Mathematician, Software Engineer, Hobbyist Programmer'
+  avatar = 'images/BruceChair.jpg'
+  color = 'linen'
+  math = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "games"
+    name = "Open Source"
+    url = "/games/"
+    weight = 20
+  [[menu.main]]
+    identifier = "math"
+    name = "Math"
+    url = "/math/"
+    weight = 30

@@ -1,0 +1,7 @@
+module github.com/rodya-mirov/rodya-mirov.github.io
+
+go 1.24.2
+
+replace github.com/nanxiaobei/hugo-paper => ./themes/paper
+
+require github.com/nanxiaobei/hugo-paper v0.0.0-20250419060945-8c75cdd9ce53 // indirect
