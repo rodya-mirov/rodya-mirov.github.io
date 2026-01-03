@@ -6,13 +6,12 @@ title: "Home"
 
 ## Richard Rast
 
-This is the homepage of Richard Rast.  I've worn a lot of different hats recently, which are all at least a little related.  I was a mathematician in Model Theory (which is a kind of Logic, which is a kind of Math, at least the way I do it).  I got my PhD at the University of Maryland, under the advisement of Prof. Chris Laskowski.  You can read about my research at the appropriate tabs above.
+This is the homepage of Richard Rast.
 
-I was also a math teacher at the University of Maryland, from 2009 to 2016.  Syllabi, course notes, and other information are available at [ELMS](http://www.elms.umd.edu/), although as time goes on, these links will go dead.
+Most days, I'm a software engineer. The good stuff is of course private, but you can see my hobby stuff in the "Hobby Programming" section up top, or my work history on LinkedIn. Suffice to say I loved it before I found out I could make money with it.
 
-I'm also a software engineer at [TriNetX](http://trinetx.com/)! I'm strictly backend though, so don't hold my website against them.
+I used to be a mathematician, and I guess I still am, because never really leaves you. I remember sitting in Taco Bell with my mom at ten years old, eating quesadillas and learning how to factor polynomials, and it was wonderful (I no longer eat at Taco Bell, but I don't judge if you still do, it takes all kinds). It's not my professional life anymore, but for seven years I was a teacher and a grad student, and I did a lot of math. You can see the "Math" section up top.
 
-Finally, I'm a hobbyist programmer.  I love new technologies and new ideas, especially AI, machine learning, and procedural generation.  You can see some of my older experiments on GitHub (check out the open source tab). More recently my hobby time has been taken up by [Project Euler](projecteuler.net/). They ask users not to share solutions, so you won't see any of that on Github.
+I'm also a husband and a dad, but if you're looking for family pictures look elsewhere. If they want to be on the internet they'll find their own way.
 
-PS - My wife, Ran Cui, is a mathematician. She got her PhD in Representation Theory, and is currently a Postdoc at MIT with the [Atlas of Lie Groups](http://www.liegroups.org/) project, as well as a Visiting Scholar at Harvard SPH, working in statistical genetics (wow!).  Her website is [here](http://www.math.umd.edu/~cuiran/).
-
+Side note, I'm not a rabbit, but I used to have a few of them, and they were way more photogenic than I'll ever be.
