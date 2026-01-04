@@ -8,7 +8,7 @@ title: "Home"
 
 This is the homepage of Richard Rast.
 
-Most days, I'm a software engineer. The good stuff is of course private, but you can see my hobby stuff in the "Hobby Programming" section up top, or my work history on LinkedIn. Suffice to say I loved it before I found out I could make money with it.
+Most days, I'm a software engineer. The good stuff is of course private, but you can see my hobby stuff in the "Hobby Programming" section up top, or my work history on [LinkedIn](https://www.linkedin.com/in/richard-rast-aa621416/). Suffice to say I loved it before I found out I could make money with it.
 
 I used to be a mathematician, and I guess I still am, because never really leaves you. I remember sitting in Taco Bell with my mom at ten years old, eating quesadillas and learning how to factor polynomials, and it was wonderful (I no longer eat at Taco Bell, but I don't judge if you still do, it takes all kinds). It's not my professional life anymore, but for seven years I was a teacher and a grad student, and I did a lot of math. You can see the "Math" section up top.
 
